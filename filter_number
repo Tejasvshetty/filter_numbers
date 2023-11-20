@@ -1,0 +1,7 @@
+function arrayDiff(a, b) {
+    let cleaned = a;
+    for (i=0; i <= b.length; i++){
+    cleaned = cleaned.filter(element => element != b[i])
+    }
+    return cleaned 
+}
